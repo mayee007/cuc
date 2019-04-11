@@ -5,6 +5,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty", "html:target/Destination"}, 
-							features = {"src/test/resources/cuc/hello" }  )
-public class RunGenericTest {
+							features = {"src/test/resources/cuc/hello"},   
+							glue={"cuc.friday"})
+public class IsItFridayTest {
 }

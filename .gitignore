@@ -1,3 +1,6 @@
 target 
 .settings.xml 
+.classpath
+.settings
+.project
 

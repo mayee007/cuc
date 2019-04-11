@@ -6,6 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = {"pretty", "html:target/Destination"}, 
-							features = {"src/test/resources/cuc/sel" }  )
+							features = {"src/test/resources/cuc/sel" }, 
+							glue={"cuc.google"})	
 public class RunCucumberGoogleTest {
 }

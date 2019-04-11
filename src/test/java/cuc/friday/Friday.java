@@ -1,4 +1,4 @@
-package cuc;
+package cuc.friday;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

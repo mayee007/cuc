@@ -4,4 +4,3 @@ Feature: Am I on google page
     Given I open webpage 
     When I read title 
     Then title should be "Google" 
-    

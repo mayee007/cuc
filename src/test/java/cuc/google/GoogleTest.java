@@ -1,4 +1,4 @@
-package cuc;
+package cuc.google;
 
 import cucumber.api.java.Before;
 import cucumber.api.java.After;
@@ -20,7 +20,7 @@ public class GoogleTest {
 	@Before
 	public void setup() { 
 		System.setProperty("webdriver.chrome.driver", 
-				"C:\\Users\\mayee\\sts_workspace\\cuc\\chromedriver.exe");
+				"C:\\Users\\mayee\\workspace\\cuc\\chromedriver.exe");
 	    driver = new ChromeDriver();  
 	}
 	
